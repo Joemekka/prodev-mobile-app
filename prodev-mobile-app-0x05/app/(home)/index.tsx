@@ -11,7 +11,7 @@ import {
   TouchableHighlight,
 } from "react-native";
 import { FILTERS, SAMPLE_DATA } from "@/constants/data";
-import PropertyListing from "@/components/common/PropertyListing";
+import PropertyListing from "@/components/PropertyListing/PropertyListing";
 
 const Home = () => {
   return (

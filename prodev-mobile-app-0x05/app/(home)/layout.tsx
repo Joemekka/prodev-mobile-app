@@ -20,7 +20,7 @@ const HomeRootLayout = () => {
         name="index"
         options={{
           title: "Home",
-          tabBarIcon: ({ color }: { color: ReactNode }) => (
+          tabBarIcon: ({ color }: { color: string }) => (
             <AntDesign name="home" size={24} color={color} />
           ),
         }}
@@ -30,7 +30,7 @@ const HomeRootLayout = () => {
         options={{
           title: "Search",
           headerShown: true,
-          tabBarIcon: ({ color }: { color: ReactNode }) => (
+          tabBarIcon: ({ color }: { color: string }) => (
             <Feather name="search" size={24} color={color} />
           ),
         }}
@@ -40,7 +40,7 @@ const HomeRootLayout = () => {
         options={{
           title: "Saved",
           headerShown: true,
-          tabBarIcon: ({ color }: { color: ReactNode }) => (
+          tabBarIcon: ({ color }: { color: string }) => (
             <EvilIcons name="heart" size={27} color={color} />
           ),
         }}
@@ -50,7 +50,7 @@ const HomeRootLayout = () => {
         options={{
           title: "Inbox",
           headerShown: true,
-          tabBarIcon: ({ color }: { color: ReactNode }) => (
+          tabBarIcon: ({ color }: { color: string }) => (
             <Ionicons name="chatbubbles-outline" size={24} color={color} />
           ),
         }}
@@ -60,7 +60,7 @@ const HomeRootLayout = () => {
         options={{
           title: "Profile",
           headerShown: true,
-          tabBarIcon: ({ color }: { color: ReactNode }) => (
+          tabBarIcon: ({ color }: { color: string }) => (
             <FontAwesome name="user-o" size={24} color={color} />
           ),
         }}
